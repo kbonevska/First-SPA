@@ -1,0 +1,130 @@
+@import 'css/navigation.css';
+@import 'css/cards-gallery.css';
+@import 'css/Footer-with-button-logo.css';
+@import 'css/form.css';
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  display: inline;
+  background: transparent;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6 {
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+}
+
+#section1 {
+  background-image: url('imgs/bake-baked-bakery-1028714.jpg');
+}
+
+#section2 {
+  background-image: url('imgs/cream-dessert-glass-8382.jpg')
+}
+
+#section3 {
+  background-image: url('imgs/berry-breakfast-cake-221063.jpg')
+}
+
+#section4 {
+  background-image: url('imgs/pexels-photo-461431.jpeg')
+}
+
+#section5 {
+  background-image: url('imgs/berry-breakfast-caramel-302468.jpg')
+}
+
+#section6 {
+  background-image: url('imgs/blur-breakfast-close-up-376464.jpg')
+}
+
+#loadMain {
+  display: inline;
+}
+#loadMain img{
+width: 100%;
+
+}
+
+.section {
+  text-align: left;
+  padding: 50px;
+}
+
+.flex-container {
+  display: flex;
+  font-family: new;
+  font-size: 24px;
+}
+
+.ingredients {
+  padding-right: 50px;
+  min-width: 50%;
+}
+
+.recipe {
+  min-width: 50%;
+}
+
+.section-light {
+  background-color: #ffdae0;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #ffffb2;
+  color: #666;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.ptext .border.trans {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-inline p {
+  padding-right: 30px
+}
